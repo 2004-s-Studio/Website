@@ -1,6 +1,5 @@
 # Website
-Site web du projet
-https://2004-s-studio.github.io/Website/
+Site web du projet : https://2004-s-studio.github.io/Website/
 
 ## Composition du site
 
