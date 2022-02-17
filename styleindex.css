@@ -7,7 +7,6 @@ header{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex; */
   justify-content: center;
   font-size: 200%;
 }
@@ -23,7 +22,7 @@ header{
 nav{
   width: 100%;
   text-align: center;
-  background-color: rgb(190,65,79);
+  background-color: black;
   display: flex;
   justify-content: center;
   font-size: 125%;
@@ -32,7 +31,7 @@ nav{
 
 .navig{
   text-decoration: none;
-  color: #E4C159;
+  color: rgb(173,215,239);
   display: inline;
   padding: 10px;
   font-weight:bold;
@@ -46,12 +45,16 @@ body{
   background-attachment:fixed;
 }
 
+h2{
+  color: black;
+  /*rgb(173,215,239);*/
+}
+
 p{
   margin-left: 3%;
   margin-right: 3%;
   font-size: 125%;
   text-align: center;
-  background-color: rgb(190,65,79);
   border-radius: 15px;
 }
 
