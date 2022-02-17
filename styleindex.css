@@ -1,9 +1,9 @@
-*{
+* {
   margin: 5px;
   padding: 0px;
 }
 
-header{
+header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -11,15 +11,15 @@ header{
   font-size: 200%;
 }
 
-.logo{
-  width:10%;
+.logo {
+  width: 10%;
   position: absolute;
-  top:0px;
-  right:0px;
+  top: 0;
+  right: 0;
   border-radius: 20px;
 }
 
-nav{
+nav {
   width: 100%;
   text-align: center;
   background-color: black;
@@ -29,28 +29,29 @@ nav{
   border-radius: 15px;
 }
 
-.navig{
+.navig {
   text-decoration: none;
-  color: rgb(173,215,239);
+  color: rgb(173, 215, 239);
   display: inline;
   padding: 10px;
   font-weight:bold;
 }
 
-body{
-  width:100%;
-  background-color:white;
-  background-image:url(fond_ecran.jpg);
+body {
+  width: 100%;
+  background-color: white;
+  background-image: url(fond_ecran.jpg);
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
-h2{
+h2 {
   color: black;
-  /*rgb(173,215,239);*/
+  
+  /* rgb(173,215,239); */
 }
 
-p{
+p {
   margin-left: 3%;
   margin-right: 3%;
   font-size: 125%;
@@ -58,7 +59,7 @@ p{
   border-radius: 15px;
 }
 
-.lien{
+.lien {
   text-decoration: none;
   font-weight:bold;
   color: black;
