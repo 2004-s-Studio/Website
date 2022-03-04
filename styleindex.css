@@ -63,9 +63,9 @@ p{
   color: black;
 }
 
-.bloc{
-  /* border-color: black; */
-  /* border-radius: 2px; */
+.block{
+  /* outline: solid black;
+  outline-offset: 10px;  */
 }
 
 .lien{
