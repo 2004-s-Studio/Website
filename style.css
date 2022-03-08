@@ -1,0 +1,141 @@
+body{
+  font-family: "Verdana";
+  margin:0;
+  padding:0;
+  width: 100%;
+  background-image: url("images/background/backSun.png");
+  background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.1vh;
+    background-image: url("images/background/footer.png");
+    background-size: cover;
+    /* background-color: black; */
+}
+
+header{
+  width:100%;
+  height: 100vh; /*vh = hauteur d'écran */
+  background: url("images/background/backHeader.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+nav{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  background-color: black;
+}
+
+nav a{
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+}
+
+nav >.navig{
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+nav >.navig:hover{
+  text-decoration: none;
+  font-weight:bold;
+  color: rgb(177,214,240);
+}
+
+
+h1{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  padding: 2vh;
+}
+
+.titre{
+  font-size: 300%;
+}
+
+.categorie{
+  color: darkred;
+  font-size: 250%;
+}
+
+.block{
+  display:flow-root;
+  margin: 4vh;
+  outline: solid darkred;
+  outline-offset: 10px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#felix{
+  outline: solid  gold;
+}
+
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  margin: auto;
+  width:90%;
+  color: black;
+  text-align: center;
+}
+
+.lien{
+  text-decoration: none;
+  color: black;
+}
+
+.lien:hover{
+  text-decoration: none;
+  font-weight:bold;
+}
+
+
+.image_left{
+  float: left;
+  margin: 1vh;
+  margin-right: 4vh;
+  border-radius: 30px;
+
+}
+
+.image_right{
+  float: right;
+  margin: 1vh;
+  margin-left: 4vh;
+  border-radius: 30px;
+}
+
+#car1{
+  width:25%;
+}
+#car2{
+  width:30%;
+}
+#photoID{
+  width:25%;
+}
