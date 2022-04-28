@@ -3,17 +3,8 @@ body{
   margin:0;
   padding:0;
   width: 100%;
-  background-image: url("images/background/backSun.png");
+  background-color: rgb(0,0,50);
   background-size: cover;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 0.1vh;
-    background-image: url("images/background/footer.png");
-    background-size: cover;
-    /* background-color: black; */
 }
 
 header{
@@ -24,32 +15,54 @@ header{
   text-align: center;
 }
 
-nav{
+#navbar {
+  overflow: hidden;
   padding: 0;
   margin: 0;
   width:100%;
   background-color: black;
 }
 
-nav a{
+#navbar a {
   text-align: center;
   padding: 15px;
   display: inline-block;
 }
 
-nav >.navig{
+#navbar >.navig{
   text-decoration: none;
   color: white;
   font-size: 150%;
   font-weight: bold;
 }
 
-nav >.navig:hover{
+
+#navbar >.navig:hover{
   text-decoration: none;
   font-weight:bold;
-  color: rgb(177,214,240);
+  /* color: rgb(177,214,240); */
+  color: rgb(145,145,255);
 }
 
+#navbar >#actuel{
+  /* color: rgb(177,214,240); */
+  color: rgb(145,145,255);
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
 h1{
   font-weight: bold;
@@ -63,18 +76,18 @@ h1{
 }
 
 .categorie{
-  color: darkred;
+  color: rgb(145,145,255);
   font-size: 250%;
 }
 
 .block{
   display:flow-root;
   margin: 4vh;
-  outline: solid darkred;
   outline-offset: 10px;
   border-radius: 30px;
   text-align: center;
   font-size: 1.4rem;
+  outline: solid darkSalmon;
 }
 
 #felix{
@@ -86,6 +99,7 @@ h2{
   margin-right: auto;
   font-weight: bold;
   text-align: center;
+  color: darkSalmon;
 }
 
 h3{
@@ -95,18 +109,19 @@ h3{
   margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
+  color: darkSalmon;
 }
 
 p{
   margin: auto;
   width:90%;
-  color: black;
+  color: wheat;
   text-align: center;
 }
 
 .lien{
   text-decoration: none;
-  color: black;
+  color: darkSalmon;
 }
 
 .lien:hover{
@@ -138,4 +153,13 @@ p{
 }
 #photoID{
   width:25%;
+}
+#map1{
+  width:46%;
+}
+#map2{
+  width:49%;
+}
+#map3{
+  width:49%;
 }
