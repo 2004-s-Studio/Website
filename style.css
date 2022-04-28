@@ -40,7 +40,13 @@ header{
 #navbar >.navig:hover{
   text-decoration: none;
   font-weight:bold;
-  color: rgb(177,214,240);
+  /* color: rgb(177,214,240); */
+  color: rgb(145,145,255);
+}
+
+#navbar >#actuel{
+  /* color: rgb(177,214,240); */
+  color: rgb(145,145,255);
 }
 
 
@@ -147,4 +153,13 @@ p{
 }
 #photoID{
   width:25%;
+}
+#map1{
+  width:46%;
+}
+#map2{
+  width:49%;
+}
+#map3{
+  width:49%;
 }
