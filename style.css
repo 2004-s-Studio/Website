@@ -81,13 +81,22 @@ h1{
 }
 
 .block{
-  display:flow-root;
+  display:flex;
   margin: 4vh;
   outline-offset: 10px;
+  justify-content: center;
   border-radius: 30px;
-  text-align: center;
+  align-content: center;
   font-size: 1.4rem;
   outline: solid darkSalmon;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #felix{
@@ -114,6 +123,8 @@ h3{
 
 p{
   margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width:90%;
   color: wheat;
   text-align: center;
@@ -129,6 +140,9 @@ p{
   font-weight:bold;
 }
 
+img{
+  height: 100%;
+}
 
 .image_left{
   float: left;
@@ -151,6 +165,10 @@ p{
 #car2{
   width:30%;
 }
+
+#car3{
+  width:25%;
+}
 #photoID{
   width:25%;
 }
@@ -161,5 +179,9 @@ p{
   width:49%;
 }
 #map3{
+  width:49%;
+}
+
+#map4{
   width:49%;
 }

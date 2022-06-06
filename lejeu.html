@@ -18,70 +18,120 @@
       </div>
     </header>
 
-    <h1 class ="categorie">Description</h1>
 
-
-    <div class="block">
-      <h3>Synopsis</h3>
-      <p>
-        Vous êtes un pilote avec une voiture de votre choix, incluant un
-        modèle Flash McQueen, et le but sera de remporter les courses
-        auxquelles vous participez. En remportant des courses, vous pourrez
-        jouer d'autres personnages emblématiques de Cars mais également
-        d'autres voitures. Vous pourrez aussi affronter vos amis ou d'autres
-        joueurs en temps réel.
-      </p>
-   </div>
-
-    <br />
-
-    <div class="block">
-      <h3>De quelle nature est-il ?</h3>
-      <p>
-        C'est un jeu de course développé en C# via le moteur de jeu UNITY.
-        Nous avons utilisé les logiciels Blender et Photoshop pour la
-        modélisation des objets 3D et le traitement des images.
-      </p>
-   </div>
-
-    <br />
 
     <h1 class ="categorie">Fonctionnement</h1>
 
     <div class="block">
-      <h3>Règles de base</h3>
-      <p>
-        Il faut diriger votre voiture avec les touches Z/Q/S/D, ou bien
-        une manette de jeu. Il vous faudra prendre les meilleures
-        trajectoires dans le but de passer la ligne d’arrivée le premier et
-        de réaliser le meilleur temps possible. Si vous sortez de la piste,
-        votre voiture sera ralentie.
-      </p>
+      <div class = "text">
+        <h3>Fonctionnement global</h3>
+        <p>
+          Il vous faudra diriger votre voiture avec la flèche du haut ⇧ pour
+          avancer, la flèche du bas ⇩ pour reculer, la flèche de droite ⇨	pour
+          tourner à droite, la flèche de gauche ⇦ pour tourner à gauche et enfin
+          la barre espace pour freiner. Votre but sera de prendre les meilleures
+          trajectoires afin de faire un nombre de tours dans le meilleur laps de
+          temps possible. Tout ceci afin de franchir la ligne d’arrivée le premier
+          en validant tous les checkpoints invisibles, afin d'éviter toute fraude.
+          Si vous sortez de la piste, votre voiture sera ralentie.
+        </p>
+      </div>
    </div>
 
     <br />
 
     <div class="block">
-      <h3>Le joueur</h3>
-      <p>
-        Le joueur doit choisir la voiture qu'il veut conduire, la première
-        voiture débloquée étant Flash McQueen. Son objectif est de finir
-        premier en franchissant la ligne d'arrivée avant ses adversaires
-        (voir paragraphe :<a class="lien" href="#p_adversaires"> les adversaires</a>) lors de différentes courses.
-      </p>
+      <div class = "text">
+        <h3>Le joueur</h3>
+        <p>
+          Le joueur devra en premier lieu disposer d'un clavier, sans quoi il
+          ne pourra pas jouer et profiter pleinement du jeu. Après s'être assuré
+          de disposer d'un matériel adapté, il pourra alors choisir la voiture
+          qu'il veut conduire,(voir paragraphe :<a class="lien" href=
+          "#p_menuselect"> les menus de sélection</a>) la première voiture débloquée
+          étant la voiture la plus maniable. Mais il sera aussi en capacité de
+          choisir la map sur laquelle il voudra courrir. Son objectif est de finir
+          premier en franchissant la ligne d'arrivée avant ses adversaires
+          (voir paragraphe :<a class="lien"href="#p_adversaires"> les modes de
+          jeu</a>) lors de différentes courses.
+        </p>
+      </div>
    </div>
 
     <br />
 
+    <div class = "block">
+      <div class="text">
+        <h3>Le menu principal</h3>
+        <p>
+          Le menu principal est composé de différentes touches qui jouent chacun
+          un rôle différent:
+          <br>
+          <strong>Single Player</strong>: choisissez votre map et votre voiture et
+          essayer de battre votre meilleur temps
+          <br>
+          <strong>VS IA</strong>: choisissez d'affronter une IA pour vous
+          améliorer.
+          <br>
+          <strong>Multiplayer</strong>: créez votre lobby ou rejoignez celui d'un
+          ami.
+          <br>
+          <strong>Settings</strong>: accédez au menu des paramètres.
+          <br>
+          <strong>Tutorial</strong>: apprenez les commandes de base du jeu (il est
+          en anglais).
+          <br>
+          <strong>Quit</strong>: quittez le jeu en fermant l'application.
+        </p>
+      </div>
+    </div>
+
+    <br/>
+
+    <div class = "block">
+      <div class="text">
+        <h3 id="p_menuselect">Les menus de sélection</h3>
+        <p>
+          <strong>1 . La map</strong>
+          <br>
+          Après avoir choisi le mode de jeu vous devrez choisir la map sur
+          laquelle vous souhaitez jouer. Il y a 4 maps différentes qui
+          s’afficheront sous la forme d’un système défilant. Pour faire défiler,
+          faites un clic droit à droite de l’image et tout en maintenant, faites
+          glisser votre souris vers la gauche. Pour sélectionner la map,
+          cliquez dessus.
+          <br>
+          <strong>2 . Les voitures</strong>
+          <br>
+          Le choix de la voiture vient juste après le choix de la map. Le système
+          est le même, référez-vous au paragraphe précédent pour avoir plus
+          d’informations. La voiture avancera différemment en fonction du modèle
+          que vous avez choisi.
+        </p>
+      </div>
+    </div>
+
+    <br/>
+
+
+
     <div class="block">
-      <h3 id="p_adversaires">Les adversaires</h3>
-      <p>
-        Vous pouvez choisir d'affronter des Intelligences Artifielles, qui
-        feront la course telles de vrais joueurs. Ou alors des amis, de
-        la famille ou toute autre personne avec qui vous souhaitez jouer
-        grâce au mode multijoueur.
-      </p>
+      <div class="text">
+        <h3 id="p_adversaires">Les modes de jeu</h3>
+        <p>
+          Vous pouvez choisir d'affronter des Intelligences Artifielles, qui
+          feront la course telles de vrais joueurs. Ou alors des amis, de
+          la famille ou toute autre personne avec qui vous souhaitez jouer
+          grâce au mode multijoueur. Toutefois, vous pouvez courir solo avec le
+          mode Single player.
+        </p>
+      </div>
    </div>
+
+   <p>
+   Pour plus de renseignements à propos du jeu, veuillez consulter le manuel
+   d'utilisation.
+   </p>
 
    <script src="script.js"></script>
 
